@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🌍 Currency Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container glass">
+    <h1>🌐 Currency Converter</h1>
+    <div class="converter">
+      <div class="row">
+        <select id="from-currency"></select>
+        <input type="number" id="from-amount" placeholder="Enter amount" />
+      </div>
+
+      <button id="swap-btn">🔄 Swap</button>
+
+      <div class="row">
+        <select id="to-currency"></select>
+        <input type="text" id="to-amount" placeholder="Converted amount" readonly />
+      </div>
+
+      <p id="rate-info"></p>
+      <p id="last-updated"></p>
+    </div>
+    <button id="toggle-dark">🌙 Toggle Dark Mode</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
